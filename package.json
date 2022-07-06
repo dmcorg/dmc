@@ -16,6 +16,8 @@
     "app:build": "pnpm build:for:electron && pnpm electron:builder"
   },
   "dependencies": {
+    "@chakra-ui/vue": "^0.12.0",
+    "@emotion/css": "^11.9.0",
     "@flaticon/flaticon-uicons": "^1.7.0",
     "vue": "^3.2.25"
   },
