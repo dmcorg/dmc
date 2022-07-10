@@ -5,6 +5,7 @@
   "main": "electron/electron.js",
   "scripts": {
     "dev": "vite",
+    "prettier": "prettier --write '**/*.{js,vue}'",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext .ts",
